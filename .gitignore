@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# env
+.env
+.env.*
+!.env.example
+
+# local agent scratch
+/agent-tools/
+
+# os
+.DS_Store

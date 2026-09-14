@@ -1,0 +1,288 @@
+{
+  "total_checks": 42,
+  "passed": 42,
+  "accuracy": 1.0,
+  "all_pass": true,
+  "cases": [
+    {
+      "id": "GR-001",
+      "kind": "external",
+      "pass": true,
+      "checks": [
+        {
+          "check": "moon_within_tol",
+          "pass": true,
+          "got": 29.2737,
+          "want": "29.27±0.3"
+        },
+        {
+          "check": "nakshatra",
+          "pass": true,
+          "got": "Krittika",
+          "want": "Krittika"
+        },
+        {
+          "check": "pada",
+          "pass": true,
+          "got": 1,
+          "want": 1
+        },
+        {
+          "check": "rashi",
+          "pass": true,
+          "got": "Mesha",
+          "want": "Mesha"
+        },
+        {
+          "check": "birth_lord",
+          "pass": true,
+          "got": "Sun",
+          "want": "Sun"
+        },
+        {
+          "check": "balance_within_tol",
+          "pass": true,
+          "got": 4.827,
+          "want": "4.83±0.1"
+        },
+        {
+          "check": "epoch_md_lord",
+          "pass": true,
+          "got": "Jupiter",
+          "want": "Jupiter"
+        },
+        {
+          "check": "epoch_ad_lord",
+          "pass": true,
+          "got": "Venus",
+          "want": "Venus"
+        },
+        {
+          "check": "jupiter_end_year",
+          "pass": true,
+          "got": "2033-09-22",
+          "want": "2033"
+        },
+        {
+          "check": "saturn_end_year",
+          "pass": true,
+          "got": "2052-09-22",
+          "want": "2052"
+        },
+        {
+          "check": "seed_jupiter_exact",
+          "pass": true,
+          "got": "2033-05-27",
+          "want": "2033-05-27"
+        },
+        {
+          "check": "seed_saturn_exact",
+          "pass": true,
+          "got": "2052-05-27",
+          "want": "2052-05-27"
+        }
+      ]
+    },
+    {
+      "id": "snap-chennai-1992",
+      "kind": "snapshot",
+      "pass": true,
+      "checks": [
+        {
+          "check": "expect_nakshatra",
+          "pass": true,
+          "got": "Punarvasu",
+          "want": "Punarvasu"
+        },
+        {
+          "check": "expect_pada",
+          "pass": true,
+          "got": 3,
+          "want": 3
+        },
+        {
+          "check": "expect_rashi",
+          "pass": true,
+          "got": "Mithuna",
+          "want": "Mithuna"
+        },
+        {
+          "check": "expect_lagna_rashi",
+          "pass": true,
+          "got": "Tula",
+          "want": "Tula"
+        },
+        {
+          "check": "expect_birth_lord",
+          "pass": true,
+          "got": "Jupiter",
+          "want": "Jupiter"
+        },
+        {
+          "check": "expect_epoch_md_lord",
+          "pass": true,
+          "got": "Mercury",
+          "want": "Mercury"
+        },
+        {
+          "check": "snapshot_moon_sidereal",
+          "pass": true,
+          "got": 86.9155,
+          "want": 86.9155
+        },
+        {
+          "check": "snapshot_nakshatra",
+          "pass": true,
+          "got": "Punarvasu",
+          "want": "Punarvasu"
+        },
+        {
+          "check": "snapshot_pada",
+          "pass": true,
+          "got": 3,
+          "want": 3
+        },
+        {
+          "check": "snapshot_rashi",
+          "pass": true,
+          "got": "Mithuna",
+          "want": "Mithuna"
+        },
+        {
+          "check": "snapshot_lagna_rashi",
+          "pass": true,
+          "got": "Tula",
+          "want": "Tula"
+        },
+        {
+          "check": "snapshot_birth_lord",
+          "pass": true,
+          "got": "Jupiter",
+          "want": "Jupiter"
+        },
+        {
+          "check": "snapshot_epoch_md_lord",
+          "pass": true,
+          "got": "Mercury",
+          "want": "Mercury"
+        },
+        {
+          "check": "snapshot_epoch_ad_lord",
+          "pass": true,
+          "got": "Moon",
+          "want": "Moon"
+        }
+      ]
+    },
+    {
+      "id": "snap-delhi-1985",
+      "kind": "snapshot",
+      "pass": true,
+      "checks": [
+        {
+          "check": "snapshot_moon_sidereal",
+          "pass": true,
+          "got": 180.8664,
+          "want": 180.8664
+        },
+        {
+          "check": "snapshot_nakshatra",
+          "pass": true,
+          "got": "Chitra",
+          "want": "Chitra"
+        },
+        {
+          "check": "snapshot_pada",
+          "pass": true,
+          "got": 3,
+          "want": 3
+        },
+        {
+          "check": "snapshot_rashi",
+          "pass": true,
+          "got": "Tula",
+          "want": "Tula"
+        },
+        {
+          "check": "snapshot_lagna_rashi",
+          "pass": true,
+          "got": "Tula",
+          "want": "Tula"
+        },
+        {
+          "check": "snapshot_birth_lord",
+          "pass": true,
+          "got": "Mars",
+          "want": "Mars"
+        },
+        {
+          "check": "snapshot_epoch_md_lord",
+          "pass": true,
+          "got": "Saturn",
+          "want": "Saturn"
+        },
+        {
+          "check": "snapshot_epoch_ad_lord",
+          "pass": true,
+          "got": "Mercury",
+          "want": "Mercury"
+        }
+      ]
+    },
+    {
+      "id": "snap-hyd-2013",
+      "kind": "snapshot",
+      "pass": true,
+      "checks": [
+        {
+          "check": "snapshot_moon_sidereal",
+          "pass": true,
+          "got": 262.1501,
+          "want": 262.1501
+        },
+        {
+          "check": "snapshot_nakshatra",
+          "pass": true,
+          "got": "Purva Ashadha",
+          "want": "Purva Ashadha"
+        },
+        {
+          "check": "snapshot_pada",
+          "pass": true,
+          "got": 3,
+          "want": 3
+        },
+        {
+          "check": "snapshot_rashi",
+          "pass": true,
+          "got": "Dhanu",
+          "want": "Dhanu"
+        },
+        {
+          "check": "snapshot_lagna_rashi",
+          "pass": true,
+          "got": "Mesha",
+          "want": "Mesha"
+        },
+        {
+          "check": "snapshot_birth_lord",
+          "pass": true,
+          "got": "Venus",
+          "want": "Venus"
+        },
+        {
+          "check": "snapshot_epoch_md_lord",
+          "pass": true,
+          "got": "Sun",
+          "want": "Sun"
+        },
+        {
+          "check": "snapshot_epoch_ad_lord",
+          "pass": true,
+          "got": "Venus",
+          "want": "Venus"
+        }
+      ]
+    }
+  ]
+}

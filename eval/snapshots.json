@@ -1,0 +1,32 @@
+{
+  "snap-chennai-1992": {
+    "moon_sidereal": 86.9155,
+    "nakshatra": "Punarvasu",
+    "pada": 3,
+    "rashi": "Mithuna",
+    "lagna_rashi": "Tula",
+    "birth_lord": "Jupiter",
+    "epoch_md_lord": "Mercury",
+    "epoch_ad_lord": "Moon"
+  },
+  "snap-delhi-1985": {
+    "moon_sidereal": 180.8664,
+    "nakshatra": "Chitra",
+    "pada": 3,
+    "rashi": "Tula",
+    "lagna_rashi": "Tula",
+    "birth_lord": "Mars",
+    "epoch_md_lord": "Saturn",
+    "epoch_ad_lord": "Mercury"
+  },
+  "snap-hyd-2013": {
+    "moon_sidereal": 262.1501,
+    "nakshatra": "Purva Ashadha",
+    "pada": 3,
+    "rashi": "Dhanu",
+    "lagna_rashi": "Mesha",
+    "birth_lord": "Venus",
+    "epoch_md_lord": "Sun",
+    "epoch_ad_lord": "Venus"
+  }
+}
